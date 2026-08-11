@@ -34,8 +34,9 @@ history
 - `mv` rename/move a file.
 - `rm` remove file or directory.
 - `cp` copy files or directories.
-- `grep` searching for patterns, within files or e.t.c
-- `find` searching by file name
+- `grep` searching for patterns, within files or e.t.c.
+- `find` searching by file name.
+- `which` location of an installed command.
 
 ```bash
 # examples of calling mentioned commands
@@ -79,4 +80,6 @@ grep "hello" -r . # searching recursively in current directory and all subdirect
 find <dir> -name <file> # searching file by name in directory
 find <dir> -name "*.txt" # find all txt files in directory
 find <dir> -name "*chad*" # find all files with chad in their name
+
+which <command> # location of the command executable
 ```
