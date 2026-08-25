@@ -5,4 +5,5 @@
 
 ## Chapters
 
-- shell basics, `basic_shell` all the most basic commands needed to be known
+- shell basics, `basic_shell` all the most basic commands needed to be known.
+- executables and work with them at `executables`.
